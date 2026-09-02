@@ -55,6 +55,8 @@ adjustment is needed for Xcode-only or non-standard SDK installs.
 
 ### Linux
 
+To fix the judder on Linux, delete the `overlay.png` file.
+
 You need SDL3, the Vulkan loader + headers, libpng, and a Vulkan driver for
 your GPU (Mesa on Intel/AMD, or the NVIDIA driver).
 
